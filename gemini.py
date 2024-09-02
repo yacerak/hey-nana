@@ -2,7 +2,7 @@
 import google.generativeai as genai
 
 def assitant(qst):
-  genai.configure(api_key="AIzaSyDWzgod8sQbHtsvPo8UfVmKyC_dKYlwQPU")
+  genai.configure(api_key="your gemini API key")
 
   # Set up the model
   generation_config = {
