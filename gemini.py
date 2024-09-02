@@ -9,10 +9,10 @@ def assitant(qst):
     "temperature": 0.9,
     "top_p": 1,
     "top_k": 1,
-    "max_output_tokens":64,
+    "max_output_tokens":256,
   }
-  """256"""
-  """2048"""
+  """256 for shorter answers"""
+  """2048 for longer answers"""
   safety_settings = [
     {
       "category": "HARM_CATEGORY_HARASSMENT",
